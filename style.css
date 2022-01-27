@@ -1,0 +1,32 @@
+
+
+.title {
+  font-weight:normal;
+  font-family:Arial;
+  font-size: 10vw;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  margin: auto;
+  padding: 0px;
+  width:80%
+}
+
+.subtitle {
+	text-indent: 17.2vw;
+	position: relative;
+    bottom: 60px;
+	font-family:Arial;
+	color: #000000;
+}
+
+.links {
+    padding-left: 30vw;
+	text-indent: -6vw;
+	position: relative;
+    bottom: 60px;
+	font-family:Arial;
+	color: 000000;
+}
+
+
