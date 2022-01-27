@@ -1,2 +1,2 @@
 # DEEENGAN
-This is Dee Engan's website. Bibliography. 
+This is Dee Engan's website/bibliography. 
