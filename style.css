@@ -1,19 +1,124 @@
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
 
+body {
+    background: #07BEB8;
+}
 
 .title {
   font-weight:normal;
   font-family:Arial;
   font-size: 10vw;
-  background-color: #000000;
-  color: #ffd0d2;
+  text-indent: 1vw;
+  background-color: #3DCCC7;
+  color: #9CEAEF;
+  border: none;
+  margin: auto;
+  padding: 0px;
+  width:80%;
+}
+
+.frontpageabout {
+  font-weight:normal;
+  font-family:Arial;
+  font-size: 10vw;
+  text-indent: 1vw;
+  background-color: #68D8D6;
+  color: #C4FFF9;
+  border: none;
+  margin: auto;
+  padding: 0px;
+  width:80%;
+  margin-top: -75px;
+}
+
+.aboutheader {
+  font-weight:normal;
+  font-family:Arial;
+  font-size: 10vw;
+  text-indent: 1vw;
+  background-color: #3DCCC7;
+  color: #9CEAEF;
   border: none;
   margin: auto;
   padding: 0px;
   width:80%
 }
 
+.textforabout {
+  font-weight:normal;
+  font-family:Arial;
+  font-size: 2.5vw;
+  word-break: break-word;
+  text-indent: 1vw;
+  background-color: #68D8D6;
+  color: #C4FFF9;
+  border: none;
+  margin: auto;
+  padding: .1px;
+  width:80%;
+  margin-top: -75px;
+}
+
+.frontpagefiction {
+  font-weight:normal;
+  font-family:Arial;
+  font-size: 10vw;
+  text-indent: 1vw;
+  background-color: #68D8D6;
+  color: #C4FFF9;
+  border: none;
+  margin: auto;
+  padding: 0px;
+  width:80%
+}
+
+.fictionheader {
+  font-weight:normal;
+  font-family:Arial;
+  font-size: 10vw;
+  text-indent: 1vw;
+  background-color: #3DCCC7;
+  color: #9CEAEF;
+  border: none;
+  margin: auto;
+  padding: 0px;
+  width:80%;
+}
+
+.textforfiction {
+  font-weight:normal;
+  font-family:Arial;
+  font-size: 2.5vw;
+  word-break: break-word;
+  text-indent: 1vw;
+  background-color: #68D8D6;
+  color: #C4FFF9;
+  border: none;
+  margin: auto;
+  padding: 1px;
+  width:80%;
+  margin-top: -75px;
+}
+
+.textforfictionlinks {
+  font-weight:normal;
+  font-family:Arial;
+  font-size: 2vw;
+  word-break: break-all;
+  text-indent: 1vw;
+  background-color: #000000;
+  color: #ffd0d2;
+  border: none;
+  margin: auto;
+  padding: 0px;
+  width:80%;
+}
+
 .subtitle {
-	text-indent: 17.2vw;
+	text-indent: 18.5vw;
 	position: relative;
     bottom: 60px;
 	font-family:Arial;
@@ -29,7 +134,26 @@
 	color: 000000;
 }
 
-body {
-    background: #d0eaff;
+.deewebsitelandingpages {
+	position: relative; 
+	left:90px; 
+	bottom:90px;
+	margin-left:150px;
+	margin-right:150px;
+	font-family:Arial;
+  	font-weight:normal;
+  	font-size: 10vw;
+  	color: #000000;
+	width:50%;
 }
+
+.divider {
+	position: relative;
+    bottom: 10px;
+	font-family:Arial;
+	color: #000000;
+	width:90%;
+}
+
+
 
