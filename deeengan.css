@@ -5,25 +5,23 @@
 body {
   background: yellow;
 }
-/* IMAGE FILES HERE */
-.brambles_max {
-  background: url("anotherimage.png");
-  background-repeat: no-repeat;
-  -webkit-transform: translate(0%, 3%);
-          transform: translate(0%, 3%);
-  height: 65em;
+body {
+  margin: 0;
+  padding: 0;
 }
-.brambles_m_600px {
-  background: url("brambles_m_600px.jpg");
-  background-position: 33% 90%;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 290%;
+/* IMG CLASS STUFF */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.banner {
+  margin-right: -12.5em;
 }
 /* TEXT */
 .title {
   font-family: Georgia;
-  font-size: 100px;
+  font-size: 5.95em;
   font-weight: normal;
   text-indent: 0vw;
   color: white;
@@ -31,10 +29,7 @@ body {
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
   text-orientation: upright;
-  -webkit-transform: translate(-90%, 1%);
-          transform: translate(-90%, 1%);
-  -webkit-animation: glow 12s infinite;
-          animation: glow 12s infinite;
+  margin-top: 0.25em;
 }
 /* KEYFRAMES */
 .paths {
@@ -94,6 +89,28 @@ body {
   100% {
     text-shadow: 2px 2px 5px #ffffff, -2px -2px 10px #ff0000;
   }
+  /* MODIFY */
+  0% {
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0.025em 0.04em 0 #fffc00;
+  }
+  15% {
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0.025em 0.04em 0 #fffc00;
+  }
+  16% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff, -0.05em -0.05em 0 #fffc00;
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff, -0.05em -0.05em 0 #fffc00;
+  }
+  50% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff, 0 -0.04em 0 #fffc00;
+  }
+  99% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff, 0 -0.04em 0 #fffc00;
+  }
+  100% {
+    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff, -0.04em -0.025em 0 #fffc00;
+  }
 }
 @keyframes paths {
   0% {
@@ -147,6 +164,28 @@ body {
   }
   100% {
     text-shadow: 2px 2px 5px #ffffff, -2px -2px 10px #ff0000;
+  }
+  /* MODIFY */
+  0% {
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0.025em 0.04em 0 #fffc00;
+  }
+  15% {
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0.025em 0.04em 0 #fffc00;
+  }
+  16% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff, -0.05em -0.05em 0 #fffc00;
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff, -0.05em -0.05em 0 #fffc00;
+  }
+  50% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff, 0 -0.04em 0 #fffc00;
+  }
+  99% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff, 0 -0.04em 0 #fffc00;
+  }
+  100% {
+    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff, -0.04em -0.025em 0 #fffc00;
   }
 }
 /* MOBILE */
