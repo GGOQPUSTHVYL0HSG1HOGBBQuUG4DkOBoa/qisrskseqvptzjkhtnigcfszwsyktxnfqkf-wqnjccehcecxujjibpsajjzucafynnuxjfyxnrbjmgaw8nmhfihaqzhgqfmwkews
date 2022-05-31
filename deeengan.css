@@ -38,12 +38,10 @@ body {
   margin-right: -0.05em;
 }
 .body_text {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-column-count: 2;
           column-count: 2;
-  padding: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
   height: 60em;
 }
 /* KEYFRAMES */
